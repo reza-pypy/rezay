@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-container {
+    position: relative;
+}
+
+.hamburger {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    width: 30px;
+    margin: 20px;
+}
+
+.line {direction: ltr;
+    height: 4px;
+    width: 100%;
+    background-color: black;
+    margin: 3px 0;
+}
+
+.menu {text-align:right;
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    left: 20px;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+}
+
+.menu a {
+    padding: 10px 15px;
+    text-decoration: none;
+    color: black;
+}
+
+.menu a:hover {
+    background-color: #f0f0f0;
+}
